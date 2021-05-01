@@ -32,6 +32,7 @@
 #include FT_SYSTEM_H
 #include FT_ERRORS_H
 #include FT_TYPES_H
+#include <stdio.h>    // for SEEK_SET in Switch platform
 
 
   /*************************************************************************/
