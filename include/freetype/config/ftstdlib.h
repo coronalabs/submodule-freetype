@@ -98,15 +98,6 @@
   /*                                                                    */
   /**********************************************************************/
 
-#ifdef NINTENDO_LIB
-#define FT_FILE     void
-#define ft_sprintf  sprintf
-#define ft_fclose   nFileClose
-#define ft_fopen    nFileOpen
-#define ft_fread    nFileRead
-#define ft_fseek    nFileSeek
-#define ft_ftell    nFileTell
-#else
 #include <stdio.h>
 #define FT_FILE     FILE
 #define ft_sprintf  sprintf
@@ -115,7 +106,6 @@
 #define ft_fread    fread
 #define ft_fseek    fseek
 #define ft_ftell    ftell
-#endif
 
 
   /**********************************************************************/
